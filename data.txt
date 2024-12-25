@@ -1,0 +1,1011 @@
+topic	name	meaning	example
+computers	hardware	physical components of a computer	motherboard, cpu, gpu, ram, disks
+computers	software	invible instructions for computer to execute	binary machine code for the cpu
+computers	firmware	software embedded into hardware	ROM-BIOS
+computers	OS	Operating System	MS-Windows, MacOS, ChromeOS, Linux
+computers	Application	Software running on top of an operating system.	
+computers	terminal	screen and keyboard not the program	
+computers	shell	program we talk to with the terminal	
+computers	directory	a folder	mysite/
+command line	ls	list files	ls -la
+command line	cd	change directory (open folder)	cd mysite
+command line	.	current directory	
+command line	..	parent directory	
+command line	touch	create/update-datetime on a file	touch one.txt two.txt
+command line	mkdir	make directory (create folder)	mkdir images styles scripts
+command line	echo	print	echo howdy
+command line	>	redirect creating/destroying	echo hello > greeting.txt
+command line	>>	redirect appending	echo world >> greeting.txt
+command line	*	wildcard matching any pattern	ls *html
+command line	cat	concatenate (chain to screen one letter at a time)	cat greeting.txt
+command line	mv	move or rename a file or files	mv *txt text
+command line			mv about.html aboutus.html
+command line	rm	remove file	rm aboutus.html
+command line	rmdir	remove directory (delete folder)	rmdir text
+command line	rm -rf dir_name	remove recursive forced	rm -rf text
+command line	cp	copy leaving original intact (like a copy and paste)	cp index.html about.html
+command line	pwd	print working directory 	pwd
+learn to code	editor	a text editor for editing plain text files (ASCII, UTF-8, UNICODE)	notepad
+learn to code	IDE	Integrated Development Enviroment	code .
+learn to code	code	meaningful symbols or words	in ASCII 65 means the letter "A"
+learn to code	html	hypertext markup language	<h1>Hello World</>
+learn to code	css	cascading style sheets	body { font-family: sans-serif }
+learn to code	javascript	a general purpose programming language	node main.js
+learn to code	tag	an html fragment we can type in plain text	<br>
+learn to code	closing tag	some tags surround other tags or text content and need to know where to stop.	<div>Content</div>
+learn to code	element	the resulting document object created based on a tag	
+learn to code	attribute	extra information typed inside an opening tag	<div id="abc">content</div>
+learn to code	property	the resulting named value created based on an attribute.	element.id
+			
+capstone	linter	detects minor and major issues with code	w3c validators for html and css
+javascript	a program	script, app(application), code, executable	
+javascript	Single Purpose	Can be used for or speciallizes in just one thing.	HTML or CSS can be used for just structure or styling.
+javascript	General Purpose	Can be used for virtually anything	
+javascript	interpreter	executed source code one at the last minute	
+javascript	compiler	converts source code into machine language for the CPU	
+javascript	statement	a single "line" of code	x = 123
+javascript	variable	a labeled value	x
+javascript	declaration	assigning a value to a variable	let x = 123;
+javascript	operator	symbols, especially math symbols	c = a + b
+javascript	value	what a variable contains, what an identifier points to.	
+javascript	comment	a not to self that is ignored and not treated as code to execute	//single line comment /*multiline comment */
+javascript	data type	a kind of value. shape each kind takes in memory.	Number, String, Date, Boolean
+javascript	run	execute code	
+javascript	debug	run with breakpoints to help find bugs by slowing execution and making temporary values visible.	
+javascript	extension	a vscode plugin that adds new functionality to the editor/IDE	
+javascript	line terminator	character that goes at the end of a statement like the semi colon ;	
+javascript	expression	calculated part of a statement; often in parentheses	
+javascript	=	assignment operator	
+javascript			
+javascript	function	block of code that can be repeated and called by name	funtion area(h,w){return h*w;}
+javascript	call/invoke	the code that use/enters a function is the caller	console.log(area(10,20));
+javascript	arguments	the values passed by the caller to the function	console.log(area(10,20));
+javascript	parameters	the named values received into the funtion	funtion area(h,w){return h*w;}
+javascript	return value	the result of the function that is sent back to the caller	funtion area(h,w){return h*w;}
+javascript	element	an object created in the browser	e = document.getElementById("name")
+javascript	event	something that happens that can trigger functions without an explicit call	e.addEventListener("click", onClick);
+javascript	click	the name of the event that fires when an html element is clicked	e.addEventListener("click", onClick);
+javascript	listener	the function that is wired to respond to an event	e.addEventListener("click", onClick);
+javascript	value	the property of an html input used to store and retrieve a value	const quantity = e.value;
+javascript	functional programming	treating functions as values (just another data type)	
+javascript	callback function	a function that is called when another process is complete	
+javascript	Date object	a data type for holding date and time values that has many methods	
+javascript	String object	a data type for holding a list of characters (letter, numbers, symbols, or spaces)	
+javascript	object	a dictionary of key "words" and their associated values (includes functions) looked up by key	let person = {name:"Kevin",age:57};
+javascript	array	a list of ordered values that can be accessed by index/offset (distance from the first)	let fruit = ["apple","banana","cherry"];
+javascript	literal	creating something immediatly inline using puctualtion like [] or {} instead of a function.	see above
+javascript	push	expand an array by adding a value to it	
+javascript	nested	one inside the other like a nested loop for rows and columns	
+javascript	loop	a code path that circles back up to the top of its block	instead of flowing straight down like normal
+javascript	while	simplest loop	
+javascript	for	compact versatile loop	
+javascript	of	pull one value at a time out of an Array	for(value of arrayList){console.log(value)}
+javascript	in	pull one key at a time out of an Object	for(key in thisObject){console.log(thisObject,thisObject[key]}
+javascript	iteration	a single pass through a loop	
+javascript	iterable	can be loop through one at a time	
+javascript	createElement()	create a new html element for the document	document.createElement("div")
+javascript	appendChild()	put one html element object inside another element	parentElement.appendChild(childElement)
+javascript	sprite	a small image that can move around the screen like a fairy	https://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29
+javascript	select	drop-down list	<select id="list">...options...</select>
+javascript	option	a selectable item in a drop-down-list	<option value="code">Visible Content</option>
+javascript	hierarchy	a tree like structure with parents and children	html page has a hierachy. JavaScript data structure.
+javascript	dropdown, listbox	old terms for a select	<select id="list">...options...</select>
+javascript	ui	User Interface (what we see and touch) GUI G==Graphical i.e. Pixel	
+javascript	pixel	a dot or square on the screen. the smallest unit we can see.	
+javascript	element	an item in a array/list of items	
+javascript	forEach	apply to each element in an array of items	
+javascript	find	find an element in an array	
+javascript	findIndex	find position of an element in an array	
+javascript	filter	return only elements for which an expression is true	
+javascript	map	transform array of elements	
+javascript	reduce	boil down an array/list into a single return value like a total or an average, min or max	
+javascript			
+javascript	DOM	document object model	document.getElementById(), document.querySelectorAll()
+javascript	BOM	browser object model	window.location, window.navigator
+javascript	subscript	an element representing an items position in an array	let oldest = kids[0]
+javascript	node	an HTML element in a hierachy	an element in an array or a parent or child
+			
+Algorithms	algorithm	a specific way of solving a general problem	each with its own performance charateristics like how long it takes, or how much memory it consumes
+	kata	a form of practice	
+	tests	code that proves other code works or not	
+	traversing	traveling over	like linked list or a tree
+AJAX pt1	AJAX	technique of using background requests - Asynchronous JavaScript and XML/JSON/ETC	XMLHTTPRequest() now called fetch()
+	API	Application Programmers Interface - an easy set of functions to call for front end programmers to make their life simple	
+	Application Programmer	A Front End Engineer focused on user intereface design not backend technolgy like sql databases	
+	Front End Engineer	Client (BRowser) USer interface Programmer (an appllication programmer)- focused on user intereface design not backend technolgy lat sql databases	
+	Back End Engineer	Server (Web/Database) WEB/API Programmer	PHP/PYTHON/JAVA/JAVASCRIPT + SQL
+	interface	how things connect	
+	protocol	agreement on the shape and meaning of information sent and received	like flags on a ship, like which language to speak
+	HTTP	THe web protocol (HyperText Transport Protocal)	scheme in the url e.g HTTPS://
+	REST	REpresentational State Transfer - technique of using meaningful URLs and HTTP verbs	POST, GET, PATCH, DELETE; Using HTTP Verbs and URLs MEANINGFULY
+	HTTP VERBS	CRUD: GET/POST/PUT/DELETE and also others like PATCH	Create, Read, Update, Delete
+	SQL 	Language for databases. Structured Query Language.	Insert, Select, Update, Delete
+	endpoint/resource	URL/URI path to the data we want to use	/api/v1/products/
+	api-key	a personal id "number"	
+	throttle	rate-limit accesses per day for a given api-key	
+	XML	store complext hierarchical data in a string or file  eXtensible Markup Language - Data <><></></>	validated  - looks like graphics, SVG, XHTML, SGML
+	JSON	store complext hierarchical data in a string or file [{"":""}]	also validated? looks like code
+	XMLHttpRequest()	background http requests for javascript old school - used call back functions instad of async	
+	fetch()	modern background requests for javascript	
+	async	many things all at the same time (parallel)	
+	promise	a delayed or deferred response to support asynchronous(parallel rather than single threaded)	
+	await	a way to turn off async so promises don't make us crazy	
+			
+USER	HTTP METHODS/VERBS	DATABASE SQL 	
+Create	POST	INSERT	
+Read	GET	SELECT	
+Update	PUT	UPDATE	
+Delete	DELETE	DELETE	
+			
+	flag	A boolean (true/false) option that is turned on by the presense/existense of it. -a -l or readonly in html attributes	
+			
+Databases	Database	Both a place to store structured data on disk efficiently and a way to search and filter that data quickly to provide answers.	
+Databases	RDBMS	Relational Database Management System	mysql, oracle, ibm db2, microsoft sql server
+Databases	NO-SQL	Any database that is not "relational"	mongodb
+SQL	Relation	The association between two tables e.g. Customers and Orders	
+SQL	Table	The fundamental unit of information in a database. A type or category, or class of information.	Customers
+SQL	query	test/string of sql code we send to the database to get a record set response.	
+SQL	SELECT	which fields to calculate or display	
+SQL	FROM tablename	which table to draw information from	
+SQL	WHERE	filter records to be included by field value	
+SQL	JOIN	add associated secondary table to draw fields from	
+SQL	ON	how to associate one table with another using their foreign keys	
+SQL	DDL	Data Decription Language for defining Schemas	
+SQL	schema	A database. A collection of tables that together form the structure for 	
+SQL	GROUP BY	combines input records into aggregates such as SUM() AVG() COUNT()	
+SQL	HAVING	filters by output aggregate function e.g. SUM() AVG() COUNT()	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
