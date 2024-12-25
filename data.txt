@@ -1,10 +1,10 @@
 topic	name	meaning	example
 computers	hardware	physical components of a computer	motherboard, cpu, gpu, ram, disks
-computers	software	invible instructions for computer to execute	binary machine code for the cpu
+computers	software	 instructions for computer to execute	binary machine code for the cpu
 computers	firmware	software embedded into hardware	ROM-BIOS
 computers	OS	Operating System	MS-Windows, MacOS, ChromeOS, Linux
 computers	Application	Software running on top of an operating system.	
-computers	terminal	screen and keyboard not the program	
+computers	terminal	emulates screen and keyboard of a dumb terminal (no cpu)	
 computers	shell	program we talk to with the terminal	
 computers	directory	a folder	mysite/
 command line	ls	list files	ls -la

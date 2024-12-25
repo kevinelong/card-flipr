@@ -36,7 +36,9 @@ const Card = c => {
 
 const Deck = d => {
     const e = Div("deck");
-    e.appendChild(Div("title", d.name));
+    const t = Div("title");
+    t.innerText = d.name;
+    e.appendChild(t);
     d.cards.forEach(c=>e.appendChild(Card(c)));
     return e;
 };
@@ -44,7 +46,7 @@ const Deck = d => {
 function lineToCard(o) {
     // o.q = `${o.topic} - <b>${o.name}</b>`;
     o.q = o.name;
-    o.a = `<b>${o.meaning}</b><hr>e.g.<br>${escapeHTML(o.example)}`;
+    o.a = `<b>${o.meaning}</b><br>e.g.<br>${escapeHTML(o.example)}`;
     return o;
 }
 

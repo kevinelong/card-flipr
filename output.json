@@ -8,7 +8,7 @@
     {
         "topic": "computers",
         "name": "software",
-        "meaning": "invible instructions for computer to execute",
+        "meaning": " instructions for computer to execute",
         "example": "binary machine code for the cpu"
     },
     {
@@ -32,7 +32,7 @@
     {
         "topic": "computers",
         "name": "terminal",
-        "meaning": "screen and keyboard not the program",
+        "meaning": "emulates screen and keyboard of a dumb terminal (no cpu)",
         "example": "MS-Windows, MacOS, ChromeOS, Linux"
     },
     {
