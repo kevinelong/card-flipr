@@ -1,15 +1,30 @@
-const Div = (kind, content) => {
+const escapeHTML = str => str.replace(/[&<>'"]/g, 
+    tag => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        "'": '&#39;',
+        '"': '&quot;'
+      }[tag]));
+      
+const Div = (kind) => {
     const e = document.createElement("div");
     e.setAttribute("class", kind);
-    e.innerHTML = content || "";
     return e;
 };
 
 const Card = c => {
     const e = Div("card");
-    e.appendChild(Div("title", c.q));
-    e.appendChild(Div("desc off", c.a));
-    const b = Div("btn", "...");
+    const q = Div("title");
+    q.innerHTML = c.q
+    e.appendChild(q);
+    const d = Div("desc off");
+    const p = document.createElement("div");
+    p.innerHTML = c.a || "";
+    d.appendChild(p);
+    e.appendChild(d);
+    const b = Div("btn");
+    b.innerText = "...";
     b.addEventListener("click", e=>{
         const d = e.target.parentElement.querySelector(".desc");
         d.classList.remove("off")
@@ -20,7 +35,8 @@ const Card = c => {
 };
 
 const Deck = d => {
-    const e = Div("deck", d.name);
+    const e = Div("deck");
+    e.appendChild(Div("title", d.name));
     d.cards.forEach(c=>e.appendChild(Card(c)));
     return e;
 };
@@ -28,7 +44,7 @@ const Deck = d => {
 function lineToCard(o) {
     // o.q = `${o.topic} - <b>${o.name}</b>`;
     o.q = o.name;
-    o.a = `<b>${o.meaning}</b><hr>e.g.<br>${o.example}`;
+    o.a = `<b>${o.meaning}</b><hr>e.g.<br>${escapeHTML(o.example)}`;
     return o;
 }
 
