@@ -24,7 +24,7 @@ const Card = c => {
     d.appendChild(p);
     e.appendChild(d);
     const b = Div("btn");
-    b.innerText = "...";
+    b.innerText = "Touch";
     b.addEventListener("click", e=>{
         const d = e.target.parentElement.querySelector(".desc");
         d.classList.remove("off")
