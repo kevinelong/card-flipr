@@ -46,7 +46,7 @@ const Deck = d => {
 function lineToCard(o) {
     // o.q = `${o.topic} - <b>${o.name}</b>`;
     o.q = o.name;
-    o.a = `<b>${o.meaning}</b><br>e.g.<br>${escapeHTML(o.example)}`;
+    o.a = `<b>${o.meaning}</b><br><br>e.g.<br>${escapeHTML(o.example)}`;
     return o;
 }
 
