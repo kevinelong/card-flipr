@@ -15,7 +15,7 @@ for index, line in enumerate(input_list):
         for i in range(len(names)):
             v = parts[i]
             if not v:
-                if len(output) > 0: 
+                if len(output) > 0 and i < 2: 
                     v = output[-1][names[i]]
                 else:
                     v = ""

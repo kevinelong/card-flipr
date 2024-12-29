@@ -112,7 +112,7 @@ week 8	Algorithms	algorithm	a specific way of solving a general problem	each wit
 week 9	AJAX pt1	AJAX	technique of using background requests - Asynchronous JavaScript and XML/JSON/ETC	XMLHTTPRequest() now called fetch()	old name for doing fetch()
 		API	Application Programmers Interface - an easy set of functions to call for front end programmers to make their life simple		
 		Application Programmer	A Front End Engineer focused on user interface design not backend technology like sql databases		
-		Front End Engineer	Client (BRowser) USer interface Programmer (an application programmer)- focused on user interface design not backend technology lat sql databases		
+		Front End Engineer	Client (Browser) User interface Programmer (an application programmer)- focused on user interface design not backend technology lat sql databases.		
 		Back End Engineer	Server (Web/Database) WEB/API Programmer	PHP/PYTHON/JAVA/JAVASCRIPT + SQL	
 		interface	how things connect		
 		protocol	agreement on the shape and meaning of information sent and received	like flags on a ship, like which language to speak	

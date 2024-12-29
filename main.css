@@ -50,9 +50,9 @@ h1 {
 .card .title {
     padding: 0rem;
     font-weight: bolder;
-    text-align: left;
-    font-size: 1.125rem;
-    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 3px solid black;
 }
 
 
@@ -77,7 +77,7 @@ h1 {
     font-size: 0.7rem;
 }
 .desc b{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .desc,
