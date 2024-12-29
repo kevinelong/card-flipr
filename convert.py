@@ -14,8 +14,11 @@ for index, line in enumerate(input_list):
         missing = 0
         for i in range(len(names)):
             v = parts[i]
-            if not v: 
-                v = output[-1][names[i]]
+            if not v:
+                if len(output) > 0: 
+                    v = output[-1][names[i]]
+                else:
+                    v = ""
                 missing += 1
             o[names[i]] = v
         if missing < len(names):
