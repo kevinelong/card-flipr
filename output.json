@@ -1,1 +1,1210 @@
-[{"week": "week 1", "topic": "computers", "name": "Hardware", "meaning": "The physical components of a computer.", "example": "motherboard, cpu, gpu, ram, disks", "notes": ""}, {"week": "week 1", "topic": "computers", "name": "Software", "meaning": "Instructions for computer to follow. The CPU executes these instructions.", "example": "binary machine code for the cpu", "notes": "or a scripting language like javascript or python that is indirectly executed by an interpreter (browser or NodeJS in the case of javascript)."}, {"week": "week 1", "topic": "computers", "name": "firmware", "meaning": "Software embedded into hardware.", "example": "ROM-BIOS", "notes": "Read Only Memory holding the Basic Input Output System for reading from drives or the keyboard or writing letters and numbers to the screen."}, {"week": "week 1", "topic": "computers", "name": "OS", "meaning": "Operating System. The OS allows regular apps to access the hardware for IO.", "example": "MS-Windows, MacOS, Chrome OS, Linux", "notes": "Manages Tasks, Organizes Disks into files and folders."}, {"week": "week 1", "topic": "computers", "name": "Application", "meaning": "Software running on top of an operating system.", "example": "A word processor, a spreadsheet, or a game.", "notes": ""}, {"week": "week 1", "topic": "computers", "name": "terminal", "meaning": "Emulates the screen and keyboard of a pre-PC era dumb-terminal or main-frame system console.", "example": "windows terminal, git-bash, vscode terminal panes.", "notes": ""}, {"week": "week 1", "topic": "computers", "name": "shell", "meaning": "The program provided by the operating system we access with a terminal.", "example": "sh, bash, csh, xsh, powershell", "notes": ""}, {"week": "week 1", "topic": "computers", "name": "file", "meaning": "A named file that contains plain text (ASCII/UTF8) like source code or non-text data like sounds, images or executables.", "example": "mysite/", "notes": ""}, {"week": "week 1", "topic": "computers", "name": "directory", "meaning": "A named folder, the index to the contents of a folder, or a special folder (~ home, .. parent, . current)", "example": "mysite/", "notes": ""}, {"week": "week 1", "topic": "command line", "name": "ls", "meaning": "List command shows files and directories in the current directory.", "example": "ls -la", "notes": "Dash Options as in \"ls -la\" lists in the long-format, all-files."}, {"week": "week 1", "topic": "command line", "name": "cd", "meaning": "The change directory (open folder) command in most shells.", "example": "cd mysite", "notes": ""}, {"week": "week 1", "topic": "command line", "name": ".", "meaning": "The Current directory/folder.", "example": "", "notes": ""}, {"week": "week 1", "topic": "command line", "name": "..", "meaning": "The Parent directory of the current directory.", "example": "", "notes": ""}, {"week": "week 1", "topic": "command line", "name": "~", "meaning": "The Home directory/folder for the current user.", "example": "", "notes": ""}, {"week": "week 1", "topic": "command line", "name": "touch", "meaning": "Creates a file or updates the last modified timestamp on a file.", "example": "touch one.txt two.txt", "notes": ""}, {"week": "week 1", "topic": "command line", "name": "mkdir directory_name", "meaning": "Make Directory (create a folder)", "example": "mkdir images styles scripts", "notes": "creates three folders in this case"}, {"week": "week 1", "topic": "command line", "name": "echo hello", "meaning": "Command to print output to screen.", "example": "", "notes": ""}, {"week": "week 1", "topic": "command line", "name": ">", "meaning": "Redirect output. Creates or destroys target file anew.", "example": "echo hello > greeting.txt", "notes": "create txt file with hello inside it"}, {"week": "week 1", "topic": "command line", "name": ">>", "meaning": "Redirect with append. Creates, or appends to the end of an existing file. Preserves the existing content.", "example": "echo world >> greeting.txt", "notes": "add a second line to the file"}, {"week": "week 1", "topic": "command line", "name": "*", "meaning": "A wildcard matching any pattern.", "example": "ls *html", "notes": "list only html files"}, {"week": "week 1", "topic": "command line", "name": "cat", "meaning": "Concatenate (chain to screen one letter at a time).", "example": "cat greeting.txt", "notes": "Show/dump the whole file's content."}, {"week": "week 1", "topic": "command line", "name": "mv", "meaning": "Move a file/folder to a different directory and/or rename a file/directory.", "example": "mv *txt text or mv about.html aboutus.html", "notes": "mv all txt files to the text directory or rename file from about to aboutus."}, {"week": "week 1", "topic": "command line", "name": "rm", "meaning": "Remove File", "example": "rm aboutus.html or rm -rf dir_name", "notes": "deletes aboutus.html or remove recursive forced (even if empty) a whole directory including its files and inner child folders."}, {"week": "week 1", "topic": "command line", "name": "rmdir", "meaning": "Remove Directory (delete a folder)", "example": "rmdir text", "notes": "remove if empty"}, {"week": "week 1", "topic": "command line", "name": "cp", "meaning": "Copy.  Leaves the original intact (like a copy and paste).", "example": "cp index.html about.html", "notes": "create new about.html based on existing index.html\\"}, {"week": "week 1", "topic": "command line", "name": "pwd", "meaning": "Print Working Directory. Outputs the full folder path to your current directory.", "example": "pwd", "notes": ""}, {"week": "week 1", "topic": "learn to code", "name": "editor", "meaning": "A text editor for editing plain text files (ASCII, UTF-8, UNICODE).", "example": "notepad, vi", "notes": ""}, {"week": "week 1", "topic": "learn to code", "name": "IDE", "meaning": "Integrated Development Environment.", "example": "e.g. VSCode, PyCharm, IntelliJ", "notes": "Includes a text editor and many extra tools for developing software. e.g. file system explorer, and a terminal, and source code control."}, {"week": "week 1", "topic": "learn to code", "name": "code", "meaning": "Source Code edited by person to be interpreted by the computer, or the agreed on meaning of and set of numbers or symbols.", "example": "console.log(\"A\");", "notes": "Or the agreed fact that 65 means the letter \"A\" in ASCII (American Standard Code for Information Interchange)."}, {"week": "week 1", "topic": "learn to code", "name": "browser", "meaning": "The application we use to navigate the world-wide-web.", "example": "Firefox, Google Chrome, Microsoft Edge.", "notes": "A client for HTTP (HyperText Transport Protocol) that fetches requested documents/pages from the domain, folder and file path entered into an address bar."}, {"week": "week 1", "topic": "learn to code", "name": "HTML", "meaning": "HyperText Markup Language", "example": "<h1>Hello World</>", "notes": "A standard for describing how a web page content."}, {"week": "week 1", "topic": "learn to code", "name": "CSS", "meaning": "Cascading Style Sheets", "example": "body { font-family: sans-serif }", "notes": "A system for applying styles to format HTML."}, {"week": "week 1", "topic": "learn to code", "name": "JavaScript/ECMAScript", "meaning": "The only general purpose programming language available in the browser.", "example": "node main.js", "notes": "Generally an interpreted language associated with web browsers and web technologies."}, {"week": "week 1", "topic": "learn to code", "name": "Tag", "meaning": "The HTML code to create an element.", "example": "<br>", "notes": "Starts with an angle bracket (less than symbol) and ends with a closing angle bracket (greater than symbol)"}, {"week": "week 1", "topic": "learn to code", "name": "Closing Tag", "meaning": "The HTML code to end an element that can have content.", "example": "<div>Content</div>", "notes": "A closing tag mirrors an opening tag but starts with a regular slash symbol / typically found on the question mark key."}, {"week": "week 1", "topic": "learn to code", "name": "Element", "meaning": "The resulting document object in memory that was created based on a tag in the source code.", "example": "", "notes": ""}, {"week": "week 1", "topic": "learn to code", "name": "Attribute", "meaning": "The extra code inside a tag the defined an Element's properties and their values.", "example": "<div id=\"abc\">content</div>", "notes": "Here abc is the attribute value and id is the attribute name"}, {"week": "week 1", "topic": "learn to code", "name": "Property", "meaning": "The named value inside an element that was created based on an attribute inside the tag.", "example": "element.id", "notes": ""}, {"week": "week 2", "topic": "capstone", "name": "Linter", "meaning": "A linter detects minor and major issues with code to help remove them. Like a lint brush removing snarls from cloth.", "example": "w3c validators for html and css", "notes": "can be run online, or in IDE(vscode), or at the command line."}, {"week": "week 3", "topic": "javascript", "name": "A Program", "meaning": "A script, code, or executable file. An App(application).", "example": "Excel.exe, main.js or main.py", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "A Special Purpose Programming Language", "meaning": "Can be used for or specializes in just one thing.", "example": "HTML or CSS can be used for just structure or styling.", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "A General Purpose Programming Language", "meaning": "Can be used for virtually anything", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "interpreter", "meaning": "executed source code one at the last minute", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "compiler", "meaning": "converts source code into machine language for the CPU", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "statement", "meaning": "a single \"line\" of code", "example": "x = 123", "notes": "can be split into seperate lines for clarity."}, {"week": "week 3", "topic": "javascript", "name": "variable", "meaning": "a labeled value", "example": "x", "notes": "column, field, cell, label, identifier, constant, key/value pair."}, {"week": "week 3", "topic": "javascript", "name": "declaration", "meaning": "assigning a value to a variable", "example": "let x = 123;", "notes": "= assignment operator"}, {"week": "week 3", "topic": "javascript", "name": "operator", "meaning": "symbols, especially math symbols", "example": "c = a + b", "notes": "+-*/ (plus, minus, multiply, divide)"}, {"week": "week 3", "topic": "javascript", "name": "value", "meaning": "what a variable contains, what an identifier points to.", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "comment", "meaning": "a note to self that is ignored and not treated as code to execute", "example": "//single line comment /*multiline comment */", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "data type", "meaning": "a kind of value. shape each kind takes in memory.", "example": "Number, String, Date, Boolean", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "run", "meaning": "execute code", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "debug", "meaning": "run with breakpoints to help find bugs by slowing execution and making temporary values visible.", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "extension", "meaning": "a vscode plugin that adds new functionality to the editor/IDE", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "line terminator", "meaning": "character that goes at the end of a statement like the semicolon ;", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "expression", "meaning": "calculated part of a statement; often in parentheses", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "=", "meaning": "assignment operator", "example": "", "notes": ""}, {"week": "week 3", "topic": "javascript", "name": "", "meaning": "", "example": "", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "function", "meaning": "block of code that can be repeated and called by name", "example": "function area(h,w){return h*w;}", "notes": "some functions are anonymous (have no name/identifier) and are instead called immediately or when a specific event occurs."}, {"week": "week 4", "topic": "javascript", "name": "call/invoke", "meaning": "the code that use/enters a function is the caller", "example": "console.log(area(10,20));", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "arguments", "meaning": "the values passed by the caller to the function", "example": "console.log(area(10,20));", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "parameters", "meaning": "the named values received into the function", "example": "function area(h,w){return h*w;}", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "return value", "meaning": "the result of the function that is sent back to the caller", "example": "function area(h,w){return h*w;}", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "element", "meaning": "an object created in the browser", "example": "e = document.getElementById(\"name\")", "notes": "usually created by interpreting an html tag"}, {"week": "week 4", "topic": "javascript", "name": "event", "meaning": "something that happens that can trigger functions without an explicit call", "example": "e.addEventListener(\"click\", onClick);", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "click", "meaning": "the name of the event that fires when an html element is clicked", "example": "e.addEventListener(\"click\", onClick);", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "listener", "meaning": "the function that is wired to respond to an event", "example": "e.addEventListener(\"click\", onClick);", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "value", "meaning": "the property of an html input used to store and retrieve a value", "example": "const quantity = e.value;", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "functional programming", "meaning": "treating functions as values (just another data type)", "example": "", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "callback function", "meaning": "a function that is called when another process is complete", "example": "", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "Date object", "meaning": "a data type for holding date and time values that has many methods", "example": "", "notes": ""}, {"week": "week 4", "topic": "javascript", "name": "String object", "meaning": "a data type for holding a list of characters (letter, numbers, symbols, or spaces)", "example": "", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "object", "meaning": "a dictionary of key \"words\" and their associated values (includes functions) looked up by key", "example": "let person = {name:\"Kevin\",age:57};", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "array", "meaning": "a list of ordered values that can be accessed by index/offset (distance from the first)", "example": "let fruit = [\"apple\",\"banana\",\"cherry\"];", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "literal", "meaning": "creating something immediately inline using punctuation like [] or {} instead of a function.", "example": "see above", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "push", "meaning": "expand an array by adding a value to it", "example": "", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "nested", "meaning": "one inside the other like a nested loop for rows and columns", "example": "", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "loop", "meaning": "a code path that circles back up to the top of its block", "example": "instead of flowing straight down like normal", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "while", "meaning": "simplest loop", "example": "", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "for", "meaning": "compact versatile loop", "example": "", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "of", "meaning": "pull one value at a time out of an Array", "example": "for(value of arrayList){console.log(value)}", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "in", "meaning": "pull one key at a time out of an Object", "example": "for(key in thisObject){console.log(thisObject,thisObject[key]}", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "iteration", "meaning": "a single pass through a loop", "example": "", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "iterable", "meaning": "can be loop through one at a time", "example": "", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "createElement()", "meaning": "create a new html element for the document", "example": "document.createElement(\"div\")", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "appendChild()", "meaning": "put one html element object inside another element", "example": "parentElement.appendChild(childElement)", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "sprite", "meaning": "a small image that can move around the screen like a fairy", "example": "https://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "select", "meaning": "drop-down list", "example": "<select id=\"list\">...options...</select>", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "option", "meaning": "a selectable item in a drop-down-list", "example": "<option value=\"code\">Visible Content</option>", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "hierarchy", "meaning": "a tree like structure with parents and children", "example": "html page has a hierarchy. JavaScript data structure.", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "dropdown, listbox", "meaning": "old terms for a select", "example": "<select id=\"list\">...options...</select>", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "ui", "meaning": "User Interface (what we see and touch) GUI Graphical i.e. Pixel", "example": "", "notes": ""}, {"week": "week 5", "topic": "javascript", "name": "pixel", "meaning": "a dot or square on the screen. the smallest unit we can see.", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "element", "meaning": "an item in a array/list of items", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "forEach", "meaning": "apply to each element in an array of items", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "find", "meaning": "find an element in an array", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "findIndex", "meaning": "find position of an element in an array", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "filter", "meaning": "return only elements for which an expression is true", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "map", "meaning": "transform array of elements", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "reduce", "meaning": "boil down an array/list into a single return value like a total or an average, min or max", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "", "meaning": "", "example": "", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "DOM", "meaning": "document object model", "example": "document.getElementById(), document.querySelectorAll()", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "BOM", "meaning": "browser object model", "example": "window.location, window.navigator", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "subscript", "meaning": "an element representing an items position in an array", "example": "let oldest = kids[0]", "notes": ""}, {"week": "week 6", "topic": "javascript", "name": "node", "meaning": "an HTML element in a hierarchy", "example": "an element in an array or a parent or child", "notes": ""}, {"week": "week 8", "topic": "Algorithms", "name": "algorithm", "meaning": "a specific way of solving a general problem", "example": "each with its own performance characteristics like how long it takes, or how much memory it consumes", "notes": ""}, {"week": "week 8", "topic": "Algorithms", "name": "kata", "meaning": "a form of practice", "example": "", "notes": ""}, {"week": "week 8", "topic": "Algorithms", "name": "tests", "meaning": "code that proves other code works or not", "example": "", "notes": ""}, {"week": "week 8", "topic": "Algorithms", "name": "traversing", "meaning": "traveling over", "example": "like linked list or a tree", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "AJAX", "meaning": "technique of using background requests - Asynchronous JavaScript and XML/JSON/ETC", "example": "XMLHTTPRequest() now called fetch()", "notes": "old name for doing fetch()"}, {"week": "week 9", "topic": "AJAX pt1", "name": "API", "meaning": "Application Programmers Interface - an easy set of functions to call for front end programmers to make their life simple", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "Application Programmer", "meaning": "A Front End Engineer focused on user interface design not backend technology like sql databases", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "Front End Engineer", "meaning": "Client (Browser) User interface Programmer (an application programmer)- focused on user interface design not backend technology lat sql databases.", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "Back End Engineer", "meaning": "Server (Web/Database) WEB/API Programmer", "example": "PHP/PYTHON/JAVA/JAVASCRIPT + SQL", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "interface", "meaning": "how things connect", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "protocol", "meaning": "agreement on the shape and meaning of information sent and received", "example": "like flags on a ship, like which language to speak", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "HTTP", "meaning": "THe web protocol (HyperText Transport Protocol)", "example": "scheme in the url e.g HTTPS://", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "REST", "meaning": "REpresentational State Transfer - technique of using meaningful URLs and HTTP verbs", "example": "POST, GET, PATCH, DELETE; Using HTTP Verbs and URLs MEANINGFULLY", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "HTTP VERBS", "meaning": "CRUD: GET/POST/PUT/DELETE and also others like PATCH", "example": "Create, Read, Update, Delete", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "SQL ", "meaning": "Language for databases. Structured Query Language.", "example": "Insert, Select, Update, Delete", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "endpoint/resource", "meaning": "URL/URI path to the data we want to use", "example": "/api/v1/products/", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "api-key", "meaning": "a personal id \"number\"", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "throttle", "meaning": "rate-limit accesses per day for a given api-key", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "XML", "meaning": "store complex hierarchical data in a string or file  eXtensible Markup Language - Data <><></></>", "example": "validated  - looks like graphics, SVG, XHTML, SGML", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "JSON", "meaning": "store complex hierarchical data in a string or file [{\"\":\"\"}]", "example": "also validated? looks like code", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "XMLHttpRequest()", "meaning": "background http requests for javascript old school - used call back functions instead of async", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "fetch()", "meaning": "modern background requests for javascript", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "async", "meaning": "many things all at the same time (parallel)", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "promise", "meaning": "a delayed or deferred response to support asynchronous(parallel rather than single threaded)", "example": "", "notes": ""}, {"week": "week 9", "topic": "AJAX pt1", "name": "await", "meaning": "a way to turn off async so promises don't make us crazy", "example": "", "notes": ""}, {"week": "week 9", "topic": "USER", "name": "HTTP METHODS/VERBS", "meaning": "DATABASE SQL ", "example": "", "notes": ""}, {"week": "week 9", "topic": "Create", "name": "POST", "meaning": "INSERT", "example": "", "notes": ""}, {"week": "week 9", "topic": "Read", "name": "GET", "meaning": "SELECT", "example": "", "notes": ""}, {"week": "week 9", "topic": "Update", "name": "PUT", "meaning": "UPDATE", "example": "", "notes": ""}, {"week": "week 9", "topic": "Delete", "name": "DELETE", "meaning": "DELETE", "example": "", "notes": ""}, {"week": "week 9", "topic": "Delete", "name": "flag", "meaning": "A boolean (true/false) option that is turned on by the presence/existence of it. -a -l or readonly in html attributes", "example": "", "notes": ""}, {"week": "week 11", "topic": "Databases", "name": "Database", "meaning": "Both a place to store structured data on disk efficiently and a way to search and filter that data quickly to provide answers.", "example": "", "notes": ""}, {"week": "week 11", "topic": "Databases", "name": "RDBMS", "meaning": "Relational Database Management System", "example": "mysql, oracle, ibm db2, microsoft sql server", "notes": ""}, {"week": "week 11", "topic": "Databases", "name": "NO-SQL", "meaning": "Any database that is not \"relational\"", "example": "mongodb", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "Relation", "meaning": "The association between two tables e.g. Customers and Orders", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "Table", "meaning": "The fundamental unit of information in a database. A type or category, or class of information.", "example": "Customers", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "query", "meaning": "test/string of sql code we send to the database to get a record set response.", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "SELECT", "meaning": "which fields to calculate or display", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "FROM tablename", "meaning": "which table to draw information from", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "WHERE", "meaning": "filter records to be included by field value", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "JOIN", "meaning": "add associated secondary table to draw fields from", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "ON", "meaning": "how to associate one table with another using their foreign keys", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "DDL", "meaning": "Data Description Language for defining Schemas", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "schema", "meaning": "A database. A collection of tables that together form the structure for ", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "GROUP BY", "meaning": "combines input records into aggregates such as SUM() AVG() COUNT()", "example": "", "notes": ""}, {"week": "week 11", "topic": "SQL", "name": "HAVING", "meaning": "filters by output aggregate function e.g. SUM() AVG() COUNT()", "example": "", "notes": ""}]
+[
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "Hardware",
+    "meaning": "The physical components of a computer.",
+    "example": "motherboard, cpu, gpu, ram, disks",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "Software",
+    "meaning": "Instructions for computer to follow. The CPU executes these instructions.",
+    "example": "binary machine code for the cpu",
+    "notes": "or a scripting language like javascript or python that is indirectly executed by an interpreter (browser or NodeJS in the case of javascript)."
+  },
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "firmware",
+    "meaning": "Software embedded into hardware.",
+    "example": "ROM-BIOS",
+    "notes": "Read Only Memory holding the Basic Input Output System for reading from drives or the keyboard or writing letters and numbers to the screen."
+  },
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "OS",
+    "meaning": "Operating System. The OS allows regular apps to access the hardware for IO.",
+    "example": "MS-Windows, MacOS, Chrome OS, Linux",
+    "notes": "Manages Tasks, Organizes Disks into files and folders."
+  },
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "Application",
+    "meaning": "Software running on top of an operating system.",
+    "example": "A word processor, a spreadsheet, or a game.",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "terminal",
+    "meaning": "Emulates the screen and keyboard of a pre-PC era dumb-terminal or main-frame system console.",
+    "example": "windows terminal, git-bash, vscode terminal panes.",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "shell",
+    "meaning": "The program provided by the operating system we access with a terminal.",
+    "example": "sh, bash, csh, xsh, powershell",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "file",
+    "meaning": "A named file that contains plain text (ASCII/UTF8) like source code or non-text data like sounds, images or executables.",
+    "example": "mysite/",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "computers",
+    "name": "directory",
+    "meaning": "A named folder, the index to the contents of a folder, or a special folder (~ home, .. parent, . current)",
+    "example": "mysite/",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "ls",
+    "meaning": "List command shows files and directories in the current directory.",
+    "example": "ls -la",
+    "notes": "Dash Options as in \"ls -la\" lists in the long-format, all-files."
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "cd",
+    "meaning": "The change directory (open folder) command in most shells.",
+    "example": "cd mysite",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": ".",
+    "meaning": "The Current directory/folder.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "..",
+    "meaning": "The Parent directory of the current directory.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "~",
+    "meaning": "The Home directory/folder for the current user.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "touch",
+    "meaning": "Creates a file or updates the last modified timestamp on a file.",
+    "example": "touch one.txt two.txt",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "mkdir directory_name",
+    "meaning": "Make Directory (create a folder)",
+    "example": "mkdir images styles scripts",
+    "notes": "creates three folders in this case"
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "echo hello",
+    "meaning": "Command to print output to screen.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": ">",
+    "meaning": "Redirect output. Creates or destroys target file anew.",
+    "example": "echo hello > greeting.txt",
+    "notes": "create txt file with hello inside it"
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": ">>",
+    "meaning": "Redirect with append. Creates, or appends to the end of an existing file. Preserves the existing content.",
+    "example": "echo world >> greeting.txt",
+    "notes": "add a second line to the file"
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "*",
+    "meaning": "A wildcard matching any pattern.",
+    "example": "ls *html",
+    "notes": "list only html files"
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "cat",
+    "meaning": "Concatenate (chain to screen one letter at a time).",
+    "example": "cat greeting.txt",
+    "notes": "Show/dump the whole file's content."
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "mv",
+    "meaning": "Move a file/folder to a different directory and/or rename a file/directory.",
+    "example": "mv *txt text or mv about.html aboutus.html",
+    "notes": "mv all txt files to the text directory or rename file from about to aboutus."
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "rm",
+    "meaning": "Remove File",
+    "example": "rm aboutus.html or rm -rf dir_name",
+    "notes": "deletes aboutus.html or remove recursive forced (even if empty) a whole directory including its files and inner child folders."
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "rmdir",
+    "meaning": "Remove Directory (delete a folder)",
+    "example": "rmdir text",
+    "notes": "remove if empty"
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "cp",
+    "meaning": "Copy.  Leaves the original intact (like a copy and paste).",
+    "example": "cp index.html about.html",
+    "notes": "create new about.html based on existing index.html\\"
+  },
+  {
+    "week": "week 1",
+    "topic": "command line",
+    "name": "pwd",
+    "meaning": "Print Working Directory. Outputs the full folder path to your current directory.",
+    "example": "pwd",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "editor",
+    "meaning": "A text editor for editing plain text files (ASCII, UTF-8, UNICODE).",
+    "example": "notepad, vi",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "IDE",
+    "meaning": "Integrated Development Environment.",
+    "example": "e.g. VSCode, PyCharm, IntelliJ",
+    "notes": "Includes a text editor and many extra tools for developing software. e.g. file system explorer, and a terminal, and source code control."
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "code",
+    "meaning": "Source Code edited by person to be interpreted by the computer, or the agreed on meaning of and set of numbers or symbols.",
+    "example": "console.log(\"A\");",
+    "notes": "Or the agreed fact that 65 means the letter \"A\" in ASCII (American Standard Code for Information Interchange)."
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "browser",
+    "meaning": "The application we use to navigate the world-wide-web.",
+    "example": "Firefox, Google Chrome, Microsoft Edge.",
+    "notes": "A client for HTTP (HyperText Transport Protocol) that fetches requested documents/pages from the domain, folder and file path entered into an address bar."
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "HTML",
+    "meaning": "HyperText Markup Language",
+    "example": "<h1>Hello World</>",
+    "notes": "A standard for describing how a web page content."
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "CSS",
+    "meaning": "Cascading Style Sheets",
+    "example": "body { font-family: sans-serif }",
+    "notes": "A system for applying styles to format HTML."
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "JavaScript/ECMAScript",
+    "meaning": "The only general purpose programming language available in the browser.",
+    "example": "node main.js",
+    "notes": "Generally an interpreted language associated with web browsers and web technologies."
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "Tag",
+    "meaning": "The HTML code to create an element.",
+    "example": "<br>",
+    "notes": "Starts with an angle bracket (less than symbol) and ends with a closing angle bracket (greater than symbol)"
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "Closing Tag",
+    "meaning": "The HTML code to end an element that can have content.",
+    "example": "<div>Content</div>",
+    "notes": "A closing tag mirrors an opening tag but starts with a regular slash symbol / typically found on the question mark key."
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "Element",
+    "meaning": "The resulting document object in memory that was created based on a tag in the source code.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "Attribute",
+    "meaning": "The extra code inside a tag the defined an Element's properties and their values.",
+    "example": "<div id=\"abc\">content</div>",
+    "notes": "Here abc is the attribute value and id is the attribute name"
+  },
+  {
+    "week": "week 1",
+    "topic": "learn to code",
+    "name": "Property",
+    "meaning": "The named value inside an element that was created based on an attribute inside the tag.",
+    "example": "element.id",
+    "notes": ""
+  },
+  {
+    "week": "week 2",
+    "topic": "capstone",
+    "name": "Linter",
+    "meaning": "A linter detects minor and major issues with code to help remove them. Like a lint brush removing snarls from cloth.",
+    "example": "w3c validators for html and css",
+    "notes": "can be run online, or in IDE(vscode), or at the command line."
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "A Program",
+    "meaning": "A script, code, or executable file. An App(application).",
+    "example": "Excel.exe, main.js or main.py",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "A Special Purpose Programming Language",
+    "meaning": "Can be used for or specializes in just one thing.",
+    "example": "HTML or CSS can be used for just structure or styling.",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "A General Purpose Programming Language",
+    "meaning": "Can be used for virtually anything",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "interpreter",
+    "meaning": "executed source code one at the last minute",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "compiler",
+    "meaning": "converts source code into machine language for the CPU",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "statement",
+    "meaning": "a single \"line\" of code",
+    "example": "x = 123",
+    "notes": "can be split into seperate lines for clarity."
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "variable",
+    "meaning": "a labeled value",
+    "example": "x",
+    "notes": "column, field, cell, label, identifier, constant, key/value pair."
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "declaration",
+    "meaning": "assigning a value to a variable",
+    "example": "let x = 123;",
+    "notes": "= assignment operator"
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "operator",
+    "meaning": "symbols, especially math symbols",
+    "example": "c = a + b",
+    "notes": "+-*/ (plus, minus, multiply, divide)"
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "value",
+    "meaning": "what a variable contains, what an identifier points to.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "comment",
+    "meaning": "a note to self that is ignored and not treated as code to execute",
+    "example": "//single line comment /*multiline comment */",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "data type",
+    "meaning": "a kind of value. shape each kind takes in memory.",
+    "example": "Number, String, Date, Boolean",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "run",
+    "meaning": "execute code",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "debug",
+    "meaning": "run with breakpoints to help find bugs by slowing execution and making temporary values visible.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "extension",
+    "meaning": "a vscode plugin that adds new functionality to the editor/IDE",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "line terminator",
+    "meaning": "character that goes at the end of a statement like the semicolon ;",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "expression",
+    "meaning": "calculated part of a statement; often in parentheses",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "=",
+    "meaning": "assignment operator",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 3",
+    "topic": "javascript",
+    "name": "",
+    "meaning": "",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "function",
+    "meaning": "block of code that can be repeated and called by name",
+    "example": "function area(h,w){return h*w;}",
+    "notes": "some functions are anonymous (have no name/identifier) and are instead called immediately or when a specific event occurs."
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "call/invoke",
+    "meaning": "the code that use/enters a function is the caller",
+    "example": "console.log(area(10,20));",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "arguments",
+    "meaning": "the values passed by the caller to the function",
+    "example": "console.log(area(10,20));",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "parameters",
+    "meaning": "the named values received into the function",
+    "example": "function area(h,w){return h*w;}",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "return value",
+    "meaning": "the result of the function that is sent back to the caller",
+    "example": "function area(h,w){return h*w;}",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "element",
+    "meaning": "an object created in the browser",
+    "example": "e = document.getElementById(\"name\")",
+    "notes": "usually created by interpreting an html tag"
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "event",
+    "meaning": "something that happens that can trigger functions without an explicit call",
+    "example": "e.addEventListener(\"click\", onClick);",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "click",
+    "meaning": "the name of the event that fires when an html element is clicked",
+    "example": "e.addEventListener(\"click\", onClick);",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "listener",
+    "meaning": "the function that is wired to respond to an event",
+    "example": "e.addEventListener(\"click\", onClick);",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "value",
+    "meaning": "the property of an html input used to store and retrieve a value",
+    "example": "const quantity = e.value;",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "functional programming",
+    "meaning": "treating functions as values (just another data type)",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "callback function",
+    "meaning": "a function that is called when another process is complete",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "Date object",
+    "meaning": "a data type for holding date and time values that has many methods",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 4",
+    "topic": "javascript",
+    "name": "String object",
+    "meaning": "a data type for holding a list of characters (letter, numbers, symbols, or spaces)",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "object",
+    "meaning": "a dictionary of key \"words\" and their associated values (includes functions) looked up by key",
+    "example": "let person = {name:\"Kevin\",age:57};",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "array",
+    "meaning": "a list of ordered values that can be accessed by index/offset (distance from the first)",
+    "example": "let fruit = [\"apple\",\"banana\",\"cherry\"];",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "literal",
+    "meaning": "creating something immediately inline using punctuation like [] or {} instead of a function.",
+    "example": "see above",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "push",
+    "meaning": "expand an array by adding a value to it",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "nested",
+    "meaning": "one inside the other like a nested loop for rows and columns",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "loop",
+    "meaning": "a code path that circles back up to the top of its block",
+    "example": "instead of flowing straight down like normal",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "while",
+    "meaning": "simplest loop",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "for",
+    "meaning": "compact versatile loop",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "of",
+    "meaning": "pull one value at a time out of an Array",
+    "example": "for(value of arrayList){console.log(value)}",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "in",
+    "meaning": "pull one key at a time out of an Object",
+    "example": "for(key in thisObject){console.log(thisObject,thisObject[key]}",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "iteration",
+    "meaning": "a single pass through a loop",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "iterable",
+    "meaning": "can be loop through one at a time",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "createElement()",
+    "meaning": "create a new html element for the document",
+    "example": "document.createElement(\"div\")",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "appendChild()",
+    "meaning": "put one html element object inside another element",
+    "example": "parentElement.appendChild(childElement)",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "sprite",
+    "meaning": "a small image that can move around the screen like a fairy",
+    "example": "https://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "select",
+    "meaning": "drop-down list",
+    "example": "<select id=\"list\">...options...</select>",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "option",
+    "meaning": "a selectable item in a drop-down-list",
+    "example": "<option value=\"code\">Visible Content</option>",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "hierarchy",
+    "meaning": "a tree like structure with parents and children",
+    "example": "html page has a hierarchy. JavaScript data structure.",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "dropdown, listbox",
+    "meaning": "old terms for a select",
+    "example": "<select id=\"list\">...options...</select>",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "ui",
+    "meaning": "User Interface (what we see and touch) GUI Graphical i.e. Pixel",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 5",
+    "topic": "javascript",
+    "name": "pixel",
+    "meaning": "a dot or square on the screen. the smallest unit we can see.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "element",
+    "meaning": "an item in a array/list of items",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "forEach",
+    "meaning": "apply to each element in an array of items",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "find",
+    "meaning": "find an element in an array",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "findIndex",
+    "meaning": "find position of an element in an array",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "filter",
+    "meaning": "return only elements for which an expression is true",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "map",
+    "meaning": "transform array of elements",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "reduce",
+    "meaning": "boil down an array/list into a single return value like a total or an average, min or max",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "",
+    "meaning": "",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "DOM",
+    "meaning": "document object model",
+    "example": "document.getElementById(), document.querySelectorAll()",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "BOM",
+    "meaning": "browser object model",
+    "example": "window.location, window.navigator",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "subscript",
+    "meaning": "an element representing an items position in an array",
+    "example": "let oldest = kids[0]",
+    "notes": ""
+  },
+  {
+    "week": "week 6",
+    "topic": "javascript",
+    "name": "node",
+    "meaning": "an HTML element in a hierarchy",
+    "example": "an element in an array or a parent or child",
+    "notes": ""
+  },
+  {
+    "week": "week 8",
+    "topic": "Algorithms",
+    "name": "algorithm",
+    "meaning": "a specific way of solving a general problem",
+    "example": "each with its own performance characteristics like how long it takes, or how much memory it consumes",
+    "notes": ""
+  },
+  {
+    "week": "week 8",
+    "topic": "Algorithms",
+    "name": "kata",
+    "meaning": "a form of practice",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 8",
+    "topic": "Algorithms",
+    "name": "tests",
+    "meaning": "code that proves other code works or not",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 8",
+    "topic": "Algorithms",
+    "name": "traversing",
+    "meaning": "traveling over",
+    "example": "like linked list or a tree",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "AJAX",
+    "meaning": "technique of using background requests - Asynchronous JavaScript and XML/JSON/ETC",
+    "example": "XMLHTTPRequest() now called fetch()",
+    "notes": "old name for doing fetch()"
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "API",
+    "meaning": "Application Programmers Interface - an easy set of functions to call for front end programmers to make their life simple",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "Application Programmer",
+    "meaning": "A Front End Engineer focused on user interface design not backend technology like sql databases",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "Front End Engineer",
+    "meaning": "Client (Browser) User interface Programmer (an application programmer)- focused on user interface design not backend technology lat sql databases.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "Back End Engineer",
+    "meaning": "Server (Web/Database) WEB/API Programmer",
+    "example": "PHP/PYTHON/JAVA/JAVASCRIPT + SQL",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "interface",
+    "meaning": "how things connect",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "protocol",
+    "meaning": "agreement on the shape and meaning of information sent and received",
+    "example": "like flags on a ship, like which language to speak",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "HTTP",
+    "meaning": "THe web protocol (HyperText Transport Protocol)",
+    "example": "scheme in the url e.g HTTPS://",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "REST",
+    "meaning": "REpresentational State Transfer - technique of using meaningful URLs and HTTP verbs",
+    "example": "POST, GET, PATCH, DELETE; Using HTTP Verbs and URLs MEANINGFULLY",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "HTTP VERBS",
+    "meaning": "CRUD: GET/POST/PUT/DELETE and also others like PATCH",
+    "example": "Create, Read, Update, Delete",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "SQL ",
+    "meaning": "Language for databases. Structured Query Language.",
+    "example": "Insert, Select, Update, Delete",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "endpoint/resource",
+    "meaning": "URL/URI path to the data we want to use",
+    "example": "/api/v1/products/",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "api-key",
+    "meaning": "a personal id \"number\"",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "throttle",
+    "meaning": "rate-limit accesses per day for a given api-key",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "XML",
+    "meaning": "store complex hierarchical data in a string or file  eXtensible Markup Language - Data <><></></>",
+    "example": "validated  - looks like graphics, SVG, XHTML, SGML",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "JSON",
+    "meaning": "store complex hierarchical data in a string or file [{\"\":\"\"}]",
+    "example": "also validated? looks like code",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "XMLHttpRequest()",
+    "meaning": "background http requests for javascript old school - used call back functions instead of async",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "fetch()",
+    "meaning": "modern background requests for javascript",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "async",
+    "meaning": "many things all at the same time (parallel)",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "promise",
+    "meaning": "a delayed or deferred response to support asynchronous(parallel rather than single threaded)",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "AJAX pt1",
+    "name": "await",
+    "meaning": "a way to turn off async so promises don't make us crazy",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "USER",
+    "name": "HTTP METHODS/VERBS",
+    "meaning": "DATABASE SQL ",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "Create",
+    "name": "POST",
+    "meaning": "INSERT",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "Read",
+    "name": "GET",
+    "meaning": "SELECT",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "Update",
+    "name": "PUT",
+    "meaning": "UPDATE",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "Delete",
+    "name": "DELETE",
+    "meaning": "DELETE",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 9",
+    "topic": "Delete",
+    "name": "flag",
+    "meaning": "A boolean (true/false) option that is turned on by the presence/existence of it. -a -l or readonly in html attributes",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "Databases",
+    "name": "Database",
+    "meaning": "Both a place to store structured data on disk efficiently and a way to search and filter that data quickly to provide answers.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "Databases",
+    "name": "RDBMS",
+    "meaning": "Relational Database Management System",
+    "example": "mysql, oracle, ibm db2, microsoft sql server",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "Databases",
+    "name": "NO-SQL",
+    "meaning": "Any database that is not \"relational\"",
+    "example": "mongodb",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "Relation",
+    "meaning": "The association between two tables e.g. Customers and Orders",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "Table",
+    "meaning": "The fundamental unit of information in a database. A type or category, or class of information.",
+    "example": "Customers",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "query",
+    "meaning": "test/string of sql code we send to the database to get a record set response.",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "SELECT",
+    "meaning": "which fields to calculate or display",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "FROM tablename",
+    "meaning": "which table to draw information from",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "WHERE",
+    "meaning": "filter records to be included by field value",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "JOIN",
+    "meaning": "add associated secondary table to draw fields from",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "ON",
+    "meaning": "how to associate one table with another using their foreign keys",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "DDL",
+    "meaning": "Data Description Language for defining Schemas",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "schema",
+    "meaning": "A database. A collection of tables that together form the structure for ",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "GROUP BY",
+    "meaning": "combines input records into aggregates such as SUM() AVG() COUNT()",
+    "example": "",
+    "notes": ""
+  },
+  {
+    "week": "week 11",
+    "topic": "SQL",
+    "name": "HAVING",
+    "meaning": "filters by output aggregate function e.g. SUM() AVG() COUNT()",
+    "example": "",
+    "notes": ""
+  }
+]

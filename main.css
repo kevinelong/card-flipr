@@ -30,6 +30,23 @@ h1 {
     padding: 0.5rem;
 }
 
+select,
+option {
+    width: 91%;
+    color: #003366;
+    background-color: #eeeeee;
+    padding: var(--unit) var(--unit);
+    font-size: 0.9rem;
+    border-radius: var(--unit);
+    box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+    margin: var(--unit);
+    display: inline-block;
+    position: relative;
+    user-select: none;
+    vertical-align: top;
+    overflow-y: scroll;
+}
+
 .card {
     color: #003366;
     background-color: #eeeeee;
@@ -73,10 +90,12 @@ h1 {
     /* margin-right: var(--button-height);
     padding-right: var(--button-height); */
 }
-.desc *{
+
+.desc * {
     font-size: 0.7rem;
 }
-.desc b{
+
+.desc b {
     font-size: 0.8rem;
 }
 
